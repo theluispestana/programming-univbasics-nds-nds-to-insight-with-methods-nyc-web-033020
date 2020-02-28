@@ -12,6 +12,7 @@ def gross_for_director(director_data, index)
       inner_index += 1
     end
     total_gross
+    index += 1
   end
 end
 
