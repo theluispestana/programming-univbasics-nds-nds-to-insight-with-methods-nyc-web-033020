@@ -18,7 +18,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp directors_database
+  # pp directors_database
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
   }
@@ -30,5 +30,6 @@ def directors_totals(nds)
     outer_index += 1
   end
   # Be sure to return the result at the end!
+  pp result
   result
 end
